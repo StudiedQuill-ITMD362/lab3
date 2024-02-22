@@ -1,17 +1,32 @@
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 800
+
+.merriweather-sans-<uniquifier> {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 body{
   background-color: #007DD8;
 }
 
 h1{
+  font-family: "Merriweather Sans", sans-serif;
+  position: relative;
+  width:80%;
+  left:10%;
   color: #DA0000;
   font-weight: 900;
+  padding-top: 1.182em;
   padding-bottom: 1.182em;
-  width: 25%;
-  position: relative;
-  left: 50%
+  text-align: center;
+  font-size: 2.202em;
 }
 
 p{
+	font-family: "Merriweather Sans", sans-serif;
   padding-bottom: 1.182em;
 }
 
@@ -30,9 +45,3 @@ p{
   position: absolute; 
   right: 6000px;
 }
-
-/*.hasjs class will only exist if js runs*/
-
-.hasjs #age-verification {
-  position: absolute; 
-  right: 6000px;
