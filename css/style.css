@@ -1,12 +1,3 @@
-/* <uniquifier>: Use a uniquifier for the class name
- <weight>: Use a value from 300 to 800 */
-
-.merriweather-sans-<uniquifier> {
-  font-family: "Merriweather Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 body{
   background-color: #134b5f;
   padding: 1em;
