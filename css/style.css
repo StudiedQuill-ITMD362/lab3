@@ -1,5 +1,5 @@
-// <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 300 to 800
+/* <uniquifier>: Use a uniquifier for the class name
+ <weight>: Use a value from 300 to 800 */
 
 .merriweather-sans-<uniquifier> {
   font-family: "Merriweather Sans", sans-serif;
