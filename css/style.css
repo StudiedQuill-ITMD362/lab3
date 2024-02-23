@@ -10,7 +10,7 @@ h1{
   padding-top: 1.182em;
   padding-bottom: 1.182em;
   text-align: center;
-  font-size: 2.478em;
+  font-size: 1.958em;
 }
 p{
   font-family: "Merriweather Sans", sans-serif, sans;
@@ -83,10 +83,13 @@ Credits: Darsh Kapadia*/
   font-size: 0.75em;
   border-radius: 25px;
 }
-@media screen and (min-width: 800px){
+@media screen and (min-width: 845px){
   body{
 	  background-color: #335E5E;
   }
+h1{
+  font-size: 2.478em;
+}
   p{
 	  color: white;
   }
