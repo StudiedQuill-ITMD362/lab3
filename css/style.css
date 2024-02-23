@@ -7,13 +7,10 @@
   font-weight: <weight>;
   font-style: normal;
 }
-
 body{
   background-color: #134b5f;
-  margin: 5%, 5%;
   padding: 1em;
 }
-
 h1{
   font-family: "Merriweather Sans", sans-serif, sans;
   width: 100%;
@@ -24,7 +21,6 @@ h1{
   text-align: center;
   font-size: 2.478em;
 }
-
 p{
   font-family: "Merriweather Sans", sans-serif, sans;
   padding-bottom: 1.182em;
@@ -32,13 +28,11 @@ p{
   font-size: 1.547em;
   text-decoration: underline;
 }
-
 .bolded{
   font-size: 1.2em;
   font-weight: bold;
   color: #DA0000;
 }
-
 ol{
   text-align: center;
 }
@@ -46,7 +40,6 @@ ol{
 #input-email{
   padding-bottom: 1em;
 }
-
 #input-email label{
   font-family: "Merriweather Sans", sans-serif, sans;
   width: 60%;
@@ -56,7 +49,6 @@ ol{
   padding-bottom: 0.25em;
   font-size: 1.375em;
 }
-
 #input-email input{
   font-family: "Merriweather Sans", sans-serif, sans;
   width: 80%;
@@ -66,25 +58,20 @@ ol{
   /* Got this from W3 Schools */
   border-radius: 25px;
 }
-
 #input-age-verification{
   padding-bottom: 1em;
 }
-
 /*put input and label together to display both in one line
 Credits: Darsh Kapadia*/
-
 #input-age-verification input[type="checkbox"],
 #input-age-verification label{
   display: inline-block;
 }
-
 #input-age-verification label{
   font-family: "Merriweather Sans", sans-serif, sans;
   font-size: 1.375em;
   padding-left: 0.5em;
 }
-
 #input-age-verification input[type="checkbox"]{
   width: 1em;
   height: 1em;
@@ -93,9 +80,8 @@ Credits: Darsh Kapadia*/
   /* From W3 Schools */
   border-radius: 25px;
 }
-
 #submit{
-	/* From W3 Schools */
+  /* From W3 Schools */
   background-color: #ACACAC;
   border: none;
   padding: 15px 32px;
@@ -105,4 +91,27 @@ Credits: Darsh Kapadia*/
   font-family: "Merriweather Sans", sans-serif, sans;
   font-size: 0.75em;
   border-radius: 25px;
+}
+@media screen and (min-width: 800px){
+  body{
+	  background-color: #335E5E;
+  }
+  p{
+	  color: white;
+  }
+  #input-email label{
+	  color: white;
+  }
+  #input-email input{
+	  background-color: #368D8D;
+  }
+  #input-age-verification label{
+	  color: white;
+  }
+  #input-age-verification input[type="checkbox"]{
+	  background-color: #368D8D;
+  }
+  #submit{
+	  background-color: #368D8D;
+  }
 }
