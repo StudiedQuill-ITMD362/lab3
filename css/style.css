@@ -85,27 +85,27 @@ Credits: Darsh Kapadia*/
 }
 @media screen and (min-width: 845px){
   body{
-	  background-color: #335E5E;
+    background-color: #335E5E;
   }
-h1{
-  font-size: 2.478em;
-}
+  h1{
+    font-size: 2.478em;
+  }
   p{
-	  color: white;
+    color: white;
   }
   #input-email label{
-	  color: white;
+    color: white;
   }
   #input-email input{
-	  background-color: #368D8D;
+    background-color: #368D8D;
   }
   #input-age-verification label{
-	  color: white;
+    color: white;
   }
   #input-age-verification input[type="checkbox"]{
-	  background-color: #368D8D;
+    background-color: #368D8D;
   }
   #submit{
-	  background-color: #368D8D;
+    background-color: #368D8D;
   }
 }
